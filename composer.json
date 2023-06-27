@@ -1,0 +1,17 @@
+{
+    "name": "exan/phpfuck",
+    "description": "PHP Fuck",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Exan\\PhpFuck\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "exanlv"
+        }
+    ],
+    "require": {}
+}

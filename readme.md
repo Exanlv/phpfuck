@@ -40,7 +40,7 @@ Exan\PhpFucker\Fucker::fuckFunction(string $fn, array $args)
 Return a fucked version of a function call, args are not automatically fucked
 
 ```php
-Exan\PhpFucker\Fucker::fuckCode(string $fn, array $args)
+Exan\PhpFucker\Fucker::fuckCode(string $code)
 ```
 Return a fucked version of code. Input should not have PHP opening/closing tags
 

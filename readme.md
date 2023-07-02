@@ -52,7 +52,6 @@ Return a fucked version of code. Input should not have PHP opening/closing tags
 - `@`
 - `!`
 - `,`
-- `"`
 - `.`
 - `+`
 - `^`

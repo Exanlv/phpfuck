@@ -8,10 +8,10 @@ class Fucker
 
     public function __construct()
     {
-        $this->alphabet['A'] = '@("".[])[' . $this->fuckInt(0) . ']';
-        $this->alphabet['r'] = '@("".[])[' . $this->fuckInt(1) . ']';
-        $this->alphabet['a'] = '@("".[])[' . $this->fuckInt(3) . ']';
-        $this->alphabet['y'] = '@("".[])[' . $this->fuckInt(4) . ']';
+        $this->alphabet['A'] = '@([].[])[' . $this->fuckInt(0) . ']';
+        $this->alphabet['r'] = '@([].[])[' . $this->fuckInt(1) . ']';
+        $this->alphabet['a'] = '@([].[])[' . $this->fuckInt(3) . ']';
+        $this->alphabet['y'] = '@([].[])[' . $this->fuckInt(4) . ']';
 
         $this->alphabet['q'] = $this->alphabet['A'] . '^' . $this->fuckInt(0) . '.' . '@([][' . $this->fuckInt(0) . '])';
         $this->alphabet['p'] = $this->alphabet['A'] . '^' . $this->fuckInt(1) . '.' . '@([][' . $this->fuckInt(0) . '])';

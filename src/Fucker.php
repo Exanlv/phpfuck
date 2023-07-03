@@ -84,7 +84,7 @@ class Fucker
         return implode('.', $chars);
     }
 
-    public function fuckFunction(string $fn, array $args, bool $pretty = false): string
+    public function fuckFunction(string $fn, array $args): string
     {
         return '(' . $this->fuckString($fn) . ')' . '(' . implode(',', $args) . ')';
     }

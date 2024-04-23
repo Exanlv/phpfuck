@@ -1,6 +1,8 @@
 # PHPFuck
 
-Fuck up your PHP
+Fuck up your PHP by making it only use `()[]@!,.+^` as characters
+
+For an online converter, see https://landviz.nl/fuck
 
 ## Install
 
